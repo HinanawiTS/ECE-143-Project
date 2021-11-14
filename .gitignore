@@ -140,4 +140,4 @@ __pycache__
 .DS_Store
 
 .idea/
-.data/
+.data/event/
