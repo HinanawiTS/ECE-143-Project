@@ -181,7 +181,7 @@ def adding_features_combine(event, players):
     dataset = dataset.merge(players, on = "wyId")
     
     # Adding features using function strong_foot 
-    dataset["strong foot"] =dataset.apply(strong, axis = 1) 
+    dataset["strong foot"] = dataset.apply(strong, axis = 1) 
 
     return dataset 
 
