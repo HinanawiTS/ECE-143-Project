@@ -154,7 +154,29 @@ def plt_location_goals(dataset):
     pitch.heatmap(bin_statistic, ax = ax, cmap = 'Reds', edgecolor = '#f9f9f9')
     labels = pitch.label_heatmap(bin_statistic, color = '#f4edf0', fontsize = 12, ax = ax, ha = 'center', va = 'center', str_format = '{:.0%}', path_effects = path_eff, exclude_zeros = True) 
 
+def correlation_heatmap(dataset): 
+    """ 
+    Plots heatmap with regards to features in dataset. 
+    
+    :param dataset: dataset to graph 
+    :type dataset: Pandas DataFrame 
+    
+    :returns: None 
+    :type returns: None 
+    
+    """ 
+    
+    assert isinstance(dataset, pd.DataFrame) 
+    assert len(dataset) > 0 
+    
+    plt.figure(figsize = (12, 7))
+    htmap = dataset[["Goal", "Header", "Counter Attack", "strong foot", "Blocked", "First Half", "Distance", "angle_degrees"]]
+    htm = sns.heatmap(data = htmap.corr(), annot = True, fmt = ".2f", linewidths = 0.3, linecolor = "purple", cmap = "RdBu", annot_kws = {"weight": "semibold"})
 
+    plt.title("Correlation", fontsize = 17, weight = "bold") 
+
+    htm.set_xticklabels(htm.get_xmajorticklabels(), weight = "semibold")
+    htm.set_yticklabels(htm.get_xmajorticklabels(), weight = "semibold") 
 
 
 
