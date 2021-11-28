@@ -1,4 +1,6 @@
 # Expected Goals Analysis 
-A prediction model for soccer goals based on the shot’s x/y positioning, shot type and angle. Data from wyscout events dataset.
-# How to run the codes
+An analysis of soccer goals, focusing on discovering what factors affect the probability of getting a goal, and build an Expected Goals (xG) model based on features we selected during the data analysis process. [Dataset](https://figshare.com/collections/Soccer_match_event_dataset/4415000/2): A relatively new, large and clean dataset containing all notable actions recorded in a season of professional European soccer games, such as passes, fouls, shots, etc, and their corresponding metadata. 
+
+
+## Repository Structure 
 
