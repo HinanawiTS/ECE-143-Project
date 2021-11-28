@@ -9,16 +9,20 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
 
 ## Repository Structure 
     .
-    ├── data    
-        ├──
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
+    ├── data  
+        ├── players.json
+        ├── teams.json
+        ├── other .json and .csv files, except events 
+        ├── events
+            ├── all events .json files (7 files) 
+    ├── src 
+        ├── cleaning_and_eda.py # cleaning and EDA 
+        ├── visualization.py    # Data Analysis and Generating Corresponding Visualizations
+    ├── Project.ipynb           # Project Notebook
+    ├── requirements.txt        
+    ├── .gitignore              
     ├── LICENSE
     └── README.md
 
-> Use short lowercase names at least for the top-level files and folders except
-> `LICENSE`, `README.md`
+## Requirements 
 
-### Source files
