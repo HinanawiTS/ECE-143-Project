@@ -10,11 +10,7 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
 ## Repository Structure 
 
 ├── Project
-│   ├── data
-
-
-
-        ├──
+│   ├── data ├──
 │   ├── env
 │   ├── state
 │   └── vars
