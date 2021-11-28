@@ -4,7 +4,7 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
 
 ## Dataset
 
-[Wyscout Events Dataset](https://figshare.com/collections/Soccer_match_event_dataset/4415000/2): A relatively new, large and clean dataset containing all notable actions recorded in a season of professional European soccer games, such as passes, fouls, shots, etc, and their corresponding metadata. All available datasets are required. 
+[Wyscout Events Dataset](https://figshare.com/collections/Soccer_match_event_dataset/4415000/2): A relatively new, large and clean dataset containing all notable actions recorded in a season of professional European soccer games, such as passes, fouls, shots, etc, and their corresponding metadata. Last updated in early 2020 (with new features).  All available datasets are required. 
 
 
 ## Repository Structure 
