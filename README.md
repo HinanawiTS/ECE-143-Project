@@ -43,6 +43,8 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
 
 
 ## How to Run the CodeS
-Install all necessary packages and download all required datasets (whole dataset is too big for the Github Repository). 
-Put datasets into /data and /data/events based on the structure mentioned above. 
-Run the Project Notebook in the root repository. 
+    Install all necessary packages and download all required datasets (whole dataset is too big for the Github Repository). 
+    Put datasets into /data and /data/events based on the structure mentioned above. 
+    
+    
+    Run the Project Notebook in the root repository. 
