@@ -25,16 +25,16 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
     └── README.md
 
 ## Requirements 
-os 
-numpy 
-json 
-pandas 
-seaborn 
-mplsoccer 
-sys 
-matplotlib 
-sklearn
-scipy  
+    os 
+    numpy 
+    json 
+    pandas 
+    seaborn 
+    mplsoccer 
+    sys 
+    matplotlib 
+    sklearn
+    scipy  
 
 ## How to Run the CodeS
 Install all necessary packages and download all required datasets (whole dataset is too big for the Github Repository). 
