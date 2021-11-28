@@ -14,3 +14,10 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
 │   ├── env
 │   ├── state
 │   └── vars
+.
+├── ...
+├── test                    # Test files (alternatively `spec` or `tests`)
+│   ├── benchmarks          # Load and stress tests
+│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+│   └── unit                # Unit tests
+└── ...
