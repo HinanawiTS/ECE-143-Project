@@ -21,8 +21,8 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
         ├── visualization.py    # Data Analysis and Generating Corresponding Visualizations 
         
     ├── Project.ipynb           # Project Notebook 
-    ├── Project Report.pdf   # Project Report 
-    ├── requirements.txt      # Requirements 
+    ├── Project Report.pdf      # Project Report 
+    ├── requirements.txt        # Requirements 
     ├── .gitignore              
     ├── LICENSE
     └── README.md
