@@ -1,5 +1,5 @@
 # Expected Goals Analysis 
-An analysis of soccer goals, focusing on discovering what factors affect the probability of getting a goal, and build an Expected Goals (xG) model based on features we selected during the data analysis process. 
+An analysis of soccer goals, focusing on discovering what factors affect the probability of getting a goal, and constructing an Expected Goals (xG) model based on features we selected during the data analysis process. 
 
 
 ## Dataset
@@ -9,3 +9,12 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
 
 ## Repository Structure 
 
+├── Project
+│   ├── data
+
+
+
+        ├──
+│   ├── env
+│   ├── state
+│   └── vars
