@@ -15,9 +15,11 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
         ├── other .json and .csv files, except events 
         ├── events
             ├── all events .json files (7 files) 
+            
     ├── src 
         ├── cleaning_and_eda.py # cleaning and EDA 
-        ├── visualization.py    # Data Analysis and Generating Corresponding Visualizations
+        ├── visualization.py    # Data Analysis and Generating Corresponding Visualizations 
+        
     ├── Project.ipynb           # Project Notebook
     ├── requirements.txt        
     ├── .gitignore              
@@ -35,6 +37,10 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
     matplotlib 
     sklearn
     scipy  
+
+
+
+
 
 ## How to Run the CodeS
 Install all necessary packages and download all required datasets (whole dataset is too big for the Github Repository). 
