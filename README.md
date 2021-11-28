@@ -43,7 +43,7 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
 
 
 ## How to Run the CodeS
-Install all necessary packages and download all required datasets (whole dataset is too big for the Github Repository). 
+Install all necessary packages and download all required [datasets](https://figshare.com/collections/Soccer_match_event_dataset/4415000/2). 
 
 
 
