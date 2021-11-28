@@ -6,3 +6,5 @@ seaborn
 mplsoccer 
 sys 
 matplotlib 
+sklearn
+scipy  
