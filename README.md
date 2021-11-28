@@ -47,4 +47,4 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
     Put datasets into /data and /data/events based on the structure mentioned above. 
     
     
-    Run the Project Notebook in the root repository. 
+    Run the Project Notebook in the root repository.  
