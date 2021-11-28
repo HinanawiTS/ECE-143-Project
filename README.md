@@ -8,10 +8,9 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
 
 
 ## Repository Structure 
-
-
     .
-    ├── build                   # Compiled files (alternatively `dist`)
+    ├── data    
+        ├──
     ├── docs                    # Documentation files (alternatively `doc`)
     ├── src                     # Source files (alternatively `lib` or `app`)
     ├── test                    # Automated tests (alternatively `spec` or `tests`)
