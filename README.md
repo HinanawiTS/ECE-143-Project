@@ -20,8 +20,9 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
         ├── cleaning_and_eda.py # cleaning and EDA 
         ├── visualization.py    # Data Analysis and Generating Corresponding Visualizations 
         
-    ├── Project.ipynb           # Project Notebook
-    ├── requirements.txt        
+    ├── Project.ipynb           # Project Notebook 
+    ├── Project Report.pdf   # Project Report 
+    ├── requirements.txt      # Requirements 
     ├── .gitignore              
     ├── LICENSE
     └── README.md
