@@ -20,6 +20,19 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
         ├── cleaning_and_eda.py # cleaning and EDA 
         ├── visualization.py    # Data Analysis and Generating Corresponding Visualizations 
         
+    ├── notebooks  
+        ├── Logistic_Regressino_Model.ipynb 
+        ├── Neural Network.ipynb                  
+        ├── Predict2.ipynb                   # Training and prediction with 9 different models
+        ├── Visualization.ipynb              # Data Analysis and Visualizations
+        ├── data_analysis.ipynb              # Data Analysis and Visualizations
+        ├── data_clean.py
+        ├── load_convert_data.ipynb
+        ├── project_visualizations (2).ipynb # Data Analysis and Visualizations
+        ├── project_visualizations.ipynb     # Data Analysis and Visualizations
+        ├── visualizations.py                # Data Analysis and Visualizations
+        ├── xgsoccer_basic_model.ipynb  
+        
     ├── Project.ipynb           # Project Notebook 
     ├── Project Report.pdf      # Project Report 
     ├── requirements.txt        # Requirements 
@@ -47,11 +60,9 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
 Install all necessary packages and download all required [datasets](https://figshare.com/collections/Soccer_match_event_dataset/4415000/2). 
 
 
-
 Put datasets into /data and /data/events based on the structure mentioned above. 
-change the path for each file
-    
-    
+Change the path for each file if necessary.
+  
 Run the Project Notebook in the root repository.  
 
 
