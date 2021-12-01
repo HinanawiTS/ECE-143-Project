@@ -19,21 +19,7 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
     ├── src 
         ├── cleaning_and_eda.py # cleaning and EDA 
         ├── visualization.py    # Data Analysis and Generating Corresponding Visualizations 
-        ├── Predict2.py      # Training and prediction with 9 different models
-        
-    ├── notebooks  
-        ├── Logistic_Regressino_Model.ipynb 
-        ├── Neural Network.ipynb                  
-        ├── Predict2.ipynb                   # Training and prediction with 9 different models
-        ├── Visualization.ipynb              # Data Analysis and Visualizations
-        ├── data_analysis.ipynb              # Data Analysis and Visualizations
-        ├── data_clean.py
-        ├── load_convert_data.ipynb
-        ├── project_visualizations (2).ipynb # Data Analysis and Visualizations
-        ├── project_visualizations.ipynb     # Data Analysis and Visualizations
-        ├── visualizations.py                # Data Analysis and Visualizations
-        ├── xgsoccer_basic_model.ipynb  
-        
+        ├── Predict2.py         # Training and prediction with 9 different models
     ├── Project.ipynb           # Project Notebook 
     ├── Project Report.pdf      # Project Report 
     ├── requirements.txt        # Requirements 
