@@ -24,7 +24,9 @@ def plt_distance_goals(dataset):
     
     plt.figure(figsize = (7, 5))
     dataset["rounded_distance"] = dataset.apply(lambda x: np.round(x["Distance"]), axis = 1) 
-    sns.scatterplot(x ="rounded_distance", y = "Goal", data = pd.DataFrame(dataset.groupby("rounded_distance").agg("mean")["Goal"]).reset_index())
+    sns.scatterplot(x ="rounded_distance", y = "Goal", 
+                    data = pd.DataFrame(dataset.groupby("rounded_distance").agg("mean")["Goal"]).reset_index(), 
+                   color = "blue", alpha = 0.5)
 
     plt.title('Distance vs Goal Probability', fontsize = 17, weight = "bold")
 
@@ -49,7 +51,9 @@ def plt_angle_goals(dataset):
     plt.figure(figsize = (7, 5))
     dataset["rounded_angle"] = dataset.apply(lambda x: np.round(x["angle_degrees"]), axis = 1) 
 
-    sns.scatterplot(x = "rounded_angle", y = "Goal", data = pd.DataFrame(dataset.groupby("rounded_angle").agg("mean")["Goal"]).reset_index())
+    sns.scatterplot(x = "rounded_angle", y = "Goal", 
+                    data = pd.DataFrame(dataset.groupby("rounded_angle").agg("mean")["Goal"]).reset_index(), 
+                   color = "blue", alpha = 0.5)
     plt.xlabel('Angle', fontsize = 12)
     plt.ylabel('Probability', fontsize = 12)
 
@@ -92,7 +96,8 @@ def top10_players(dataset):
     
     plt.figure(figsize = (12.5, 10))
     sns.set_style("darkgrid")
-    scatterplayers = sns.scatterplot(data = top50[0:10], x = "Goal", y = "Accuracy", size = "Attempts", sizes = (2500, 5000), hue = "shortName", alpha = 0.5, legend = False)
+    scatterplayers = sns.scatterplot(data = top50[0:10], x = "Goal", y = "Accuracy", size = "Attempts", sizes = (2500, 5000), 
+                                     alpha = 0.5, legend = False, color = "skyblue")
 
     plt.title("Top 10 Players", weight = "bold", fontsize = 20)
 
@@ -120,7 +125,8 @@ def top10_teams(dataset):
     top50 = dataset
 
     plt.figure(figsize = (12.5, 10))
-    scatterplayers = sns.scatterplot(data = top50[0:10], x = "Goal", y = "Accuracy", size = "Attempts", sizes = (2500, 5000), hue = "name", alpha = 0.5, legend = False)
+    scatterplayers = sns.scatterplot(data = top50[0:10], x = "Goal", y = "Accuracy", size = "Attempts", sizes = (2500, 5000), 
+                                     alpha = 0.5, legend = False, color = "skyblue")
 
     plt.title("Top 10 Teams", weight = "bold", fontsize = 20)
 
@@ -151,7 +157,7 @@ def plt_location_goals(dataset):
 
     bin_statistic = pitch.bin_statistic(dataset["X"].astype(float), dataset["Y"].astype(float), statistic = 'count', bins = (20, 15), normalize = True)
 
-    pitch.heatmap(bin_statistic, ax = ax, cmap = 'Reds', edgecolor = '#f9f9f9')
+    pitch.heatmap(bin_statistic, ax = ax, cmap = 'Blues', edgecolor = '#f9f9f9')
     labels = pitch.label_heatmap(bin_statistic, color = '#f4edf0', fontsize = 12, ax = ax, ha = 'center', va = 'center', str_format = '{:.0%}', path_effects = path_eff, exclude_zeros = True) 
 
 def correlation_heatmap(dataset): 
@@ -176,14 +182,7 @@ def correlation_heatmap(dataset):
     plt.title("Correlation", fontsize = 17, weight = "bold") 
 
     htm.set_xticklabels(htm.get_xmajorticklabels(), weight = "semibold")
-    htm.set_yticklabels(htm.get_xmajorticklabels(), weight = "semibold") 
-
-
-
-
-
-
-
+    htm.set_yticklabels(htm.get_xmajorticklabels(), weight = "semibold")
 
 
 
