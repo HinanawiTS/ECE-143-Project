@@ -19,7 +19,8 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
     ├── src 
         ├── cleaning_and_eda.py # cleaning and EDA 
         ├── visualization.py    # Data Analysis and Generating Corresponding Visualizations 
-        ├── Predict2.py         # Training and prediction with 9 different models
+        ├── prediction_analysis.py         # Training and prediction with 9 different models 
+        
     ├── Project.ipynb           # Project Notebook 
     ├── Project Report.pdf      # Project Report 
     ├── requirements.txt        # Requirements 
@@ -37,8 +38,8 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
     sys 
     matplotlib 
     sklearn
-    scipy  
-
+    glob
+    scipy
 
 
 
