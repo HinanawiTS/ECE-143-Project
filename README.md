@@ -51,7 +51,7 @@ Install all necessary packages and download all required [datasets](https://figs
 Put datasets into /data and /data/events based on the structure mentioned above. 
 Change the path for each file if necessary.
   
-Run the Project Notebook in the root repository.  
+Run the Project Notebook in the root repository.   
 
 
 
