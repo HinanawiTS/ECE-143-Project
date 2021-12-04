@@ -202,7 +202,7 @@ def process_dataset(directory):
     assert len(directory) > 0
     
     # Read and preprocess events and players dataset 
-    event = read_preprocess_events(directory + "/event") 
+    event = read_preprocess_events(directory + "/events") 
     players = read_process_players(directory) 
     
     # Adding features 
