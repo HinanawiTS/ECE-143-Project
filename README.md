@@ -12,14 +12,19 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
     ├── data  
         ├── players.json
         ├── teams.json
-        ├── other .json and .csv files, except events 
+        ├── other .json and .csv files, except events
+        ├── matches
+            ├── all matches .json files(7 files)
         ├── events
             ├── all events .json files (7 files) 
             
     ├── src 
         ├── cleaning_and_eda.py # cleaning and EDA 
         ├── visualization.py    # Data Analysis and Generating Corresponding Visualizations 
-        ├── prediction_analysis.py         # Training and prediction with 9 different models 
+        ├── prediction_analysis.py         # Training and prediction with 9 different models
+        ├── shot_martrix.py # Get a tiddy dataset about goals, distance and angle
+        ├── PlotPitch.py # Plot football filed more visually
+        ├── logistic_plus.py # Plot Logistic Regression 
         
     ├── Project.ipynb           # Project Notebook 
     ├── Project Report.pdf      # Project Report 
@@ -29,27 +34,25 @@ An analysis of soccer goals, focusing on discovering what factors affect the pro
     └── README.md
 
 ## Requirements 
-    os 
+    os
+    sys
+    tqdm.notebook
+    pathlib
+    urllib.parse
+    urllib.request
+    zipfile 
     numpy 
     json 
     pandas 
     seaborn 
-    mplsoccer 
-    sys 
+    mplsoccer
     matplotlib 
     sklearn
     glob
     scipy
 
-
-
-
 ## How to Run the Project
-Install all necessary packages and download all required [datasets](https://figshare.com/collections/Soccer_match_event_dataset/4415000/2). 
-
-
-Put datasets into /data and /data/events based on the structure mentioned above. 
-Change the path for each file if necessary.
+Install all necessary packages.
   
 Run the Project Notebook in the root repository.   
 
